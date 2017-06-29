@@ -10,9 +10,9 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "/Users/BAOSS/Dropbox/Programming/projects/hello-next/pages/index.js?entry";
+var _jsxFileName = "/Users/BAOSS/Dropbox/Programming/projects/hello-next/pages/about.js?entry";
 
-var Index = function Index() {
+exports.default = function () {
   return _react2.default.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -23,7 +23,5 @@ var Index = function Index() {
       fileName: _jsxFileName,
       lineNumber: 3
     }
-  }, "Hello Next.js"));
+  }, "This is the about page"));
 };
-
-exports.default = Index;
